@@ -20,7 +20,7 @@ use App\Entity\Channel\ChannelPricing;
 use App\Entity\Product\ProductVariant;
 use Doctrine\ORM\EntityManagerInterface;
 use App\Entity\Shipping\ShippingCategory;
-use App\Repository\Taxon\TaxonRepository;
+use Sylius\Bundle\TaxonomyBundle\Doctrine\ORM\TaxonRepository;
 use App\Entity\Product\ProductTranslation;
 use Symfony\Component\String\Slugger\AsciiSlugger;
 use Spinbits\SyliusBaselinkerPlugin\Model\ProductAddModel;
